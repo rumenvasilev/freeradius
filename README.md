@@ -14,7 +14,8 @@ perlauth-3.4.pm - perl auth module for freeradius /802.1x auth/
 wifi.guest-pw.pl
 ==================
 This script interacts with Extreme networks wireless controller devices
-to update guest SSID password. It's intended to be run via crontab.
+to update guest SSID password. You need to have a valid r/w SNMP v2 account
+in the device. It's intended to be run via crontab.
 * Altitude 4511
 * Summit WM3000
 
