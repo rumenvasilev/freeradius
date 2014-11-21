@@ -11,6 +11,13 @@ perlauth-3.4.pm - perl auth module for freeradius /802.1x auth/
 * works with Extreme Networks switches (VLAN attributes returned to the switch), but can be easily modified to support any vendor.
 * designed to work with multiple database instances (e.g. two postgres or two ldaps) for high-availability
 
+wifi.guest-pw.pl
+==================
+This script interacts with Extreme networks wireless controller devices
+to update guest SSID password. It's intended to be run via crontab.
+* Altitude 4511
+* Summit WM3000
+
 ==================
 I've developed this code w/o any previous perl background, which is why
 the code might not be the best one.
